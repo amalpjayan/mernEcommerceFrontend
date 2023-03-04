@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+.banner {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(20, 185, 218, 1) 0%,
+    rgba(8, 125, 255, 1) 50%,
+    rgba(20, 185, 218, 1) 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 69vmin;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.banner > h1 {
+  margin: 5vmax;
+
+  font: 600 2.5vmax "Merriweather Sans";
+}
+.banner > p {
+  font: 600 1.4vmax "Lucida Sans";
+}
+.banner > a > button {
+  margin-bottom: 5vmax;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 1vmax;
+  transition: all 0.5s;
+}
+.banner > a > button:hover {
+  background-color: rgba(8, 125, 255, 1);
+  color: white;
+}
+
+.homeHeading {
+  text-align: center;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid black;
+  width: 20vmax;
+  margin: 5vmax auto;
+  color: rgba(0, 0, 0, 0.781);
+}
+
+/* .productCard{
+    width: 261px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: grey;
+    margin: 5px;
+    transition: all .5s;
+    padding-bottom: 27px;
+}
+
+.productCard > img{
+    width: 20vmax;
+}
+.productCard > p{
+    text-align: center;
+}
+.productCard  div{
+    margin: .1vmax;
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.productCard > span{
+    margin: .5vmax;
+    display: flex;
+    font-size: 15px;
+    color: tomato;
+}
+.productCard div > span{
+    margin: .5vmax;
+    font-size: 11px;;
+}
+
+.productCard:hover{
+  box-shadow: 0 0 5px black;
+
+  transform: translateY(-1vmax)
+}
+
+@media screen  and (max-width: 600px) {
+  .productCard > p{
+    font-size: 1.7vmax;
+  }
+
+  .productCard > div{
+    margin: 0vmax;
+    display: block;
+  }
+
+  .productCard > span{
+    font-size: 1.5vmax;
+  }
+  .productCard > div > span{
+    margin: 0 0.5vmax;
+    font: 300 1vmax "Merriweather Sans"
+  }
+} */
+
+.productCardSpan {
+  margin: 0.1vmax;
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.productCard {
+  text-decoration: none;
+}
+.card {
+  transition: all 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 0 5px black;
+
+  transform: translateY(-1vmax);
+}
+
+.card-body > div > p > a {
+  text-decoration: none;
+}
